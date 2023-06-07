@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class objectsmoving : MonoBehaviour
+public class ObjectsMoving : MonoBehaviour
 {
-    [SerializeField] private float speed = 4.5f;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float TemplateSpeed = 5f;
 
-
-    void Update()
+    private void Update()
     {
-        transform.Translate(Vector3.right * speed);
+        transform.position -= new Vector3(TemplateSpeed * Time.deltaTime, 0, 0);
     }
 }
