@@ -309,7 +309,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5054e0b51f362054ba9474075d278a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  templatePlatforms: {fileID: 1280882559253318890, guid: d6c3024d4f86c45468770bd3c4118ef9, type: 3}
+  templatePlatforms:
+  - {fileID: 1280882559253318890, guid: afa7b3c782f0d834fa2ae3ddf5597a93, type: 3}
+  - {fileID: 1280882559253318890, guid: d6c3024d4f86c45468770bd3c4118ef9, type: 3}
+  - {fileID: 1280882559253318890, guid: bae83e044cbc0fd4d81b349e6cf54adc, type: 3}
 --- !u!1 &938895766
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,8 +630,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1860901787}
   - component: {fileID: 1860901786}
-  - component: {fileID: 1860901785}
   - component: {fileID: 1860901784}
+  - component: {fileID: 1860901785}
   - component: {fileID: 1860901788}
   - component: {fileID: 1860901789}
   m_Layer: 0
@@ -795,7 +798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeathScreen: {fileID: 1775945506}
-  jumpVelocity: 8
+  jumpVelocity: 10
 --- !u!50 &1860901789
 Rigidbody2D:
   serializedVersion: 4

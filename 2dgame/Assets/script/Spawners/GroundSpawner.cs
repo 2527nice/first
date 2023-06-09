@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class GroundSpawner : MonoBehaviour
 {
-  [SerializeField] private GameObject templatePlatforms;
-  
-  private GameObject spawnPlatforms;
+  [SerializeField] private GameObject[] templatePlatforms;
 
   private void Start()
   {
@@ -14,7 +12,7 @@ public class GroundSpawner : MonoBehaviour
   }
   private void Platforms()
   {
-    spawnPlatforms = Instantiate(templatePlatforms, transform.position, Quaternion.identity) as GameObject;
+    Instantiate(templatePlatforms[Random.Range(0, templatePlatforms.Length)], transform.position, Quaternion.identity);
   }
   
 }
