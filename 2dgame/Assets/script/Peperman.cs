@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class Peperman : MonoBehaviour
 {
@@ -9,6 +9,12 @@ public class Peperman : MonoBehaviour
     [SerializeField] private GameObject DeathScreen;
 
     [SerializeField] private float jumpVelocity = 20;
+
+    [Header("Player UI Settings")]
+
+    [SerializeField] private GameObject PlayerUI;
+
+    
 
     private Animator animation; 
     
@@ -42,6 +48,7 @@ public class Peperman : MonoBehaviour
         {
             DeathScreen.SetActive(true);
             Time.timeScale = 0f;
+            PlayerUI.SetActive(false);
         }
     }
 }
