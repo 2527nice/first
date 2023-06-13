@@ -1,0 +1,13 @@
+So, as you can see, these are Snick sprites, in folders. There are also extras for like Hud, Npc, and collectables.
+
+Sprites ripped by Mineken713
+
+Snick made by Pizza Tower Guy
+
+Pizza Tower made by Pizza Tower Guy
+
+Ripped from Xmas Break (He was in the files still)
+
+Credit not needed
+
+(RTB's addendum: Only the "snicknpc_idlehalloween" sprite made it to the final game, though Snick.exe can be seen by using debug. Everything else here is only seen in the SAGE 2019, Noise's Hardoween or Peppino's Xmas Break demos.)
